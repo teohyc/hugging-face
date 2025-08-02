@@ -1,3 +1,5 @@
 /.venv
 /saved_model_1
 /saved_tokenizer_1
+/test-trainer
+/my_first_diffusion_model
