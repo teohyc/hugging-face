@@ -32,6 +32,7 @@ eval_dataloader = DataLoader(
     tokenized_datasets["validation"], batch_size=8, collate_fn=data_collator
 )
 
+#define accelerator
 accelerator = Accelerator()
 
 model = AutoModelForSequenceClassification.from_pretrained(checkpoint, num_labels=2)
